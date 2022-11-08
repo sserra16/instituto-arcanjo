@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Dream Orphans";
+  src: url('../public/fontes/dreamorphans.otf');
+}
+
+* {
+  box-sizing: border-box;
+  @apply font-padrao;
+}
+
+body, #root {
+  width: 100vw;
+  height: 100vh;
+}
+
+header nav a {
+  @apply hover:text-primary transition-all text-white text-sm;
+}
