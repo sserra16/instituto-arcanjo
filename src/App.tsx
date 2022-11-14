@@ -1,22 +1,15 @@
 import React from "react";
 import "./index.css";
+import Routes from "./routes";
 import Header from "./components/Header";
-import InstitutoArcanjo from "./components/InstitutoArcanjo";
-import Slider from "./components/Slider";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="h-screen overflow-x-hidden overflow-y-scroll z-0 scrollbar-thin">
+    <BrowserRouter>
       <Header />
-
-      <section id="main">
-        <Slider />
-      </section>
-
-      <section id="instituto">
-        <InstitutoArcanjo />
-      </section>
-    </div>
+      <Routes />
+    </BrowserRouter>
   );
 }
 
