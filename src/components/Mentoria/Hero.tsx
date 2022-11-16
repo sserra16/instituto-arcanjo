@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFillArrowDownCircleFill } from "react-icons/bs";
+import { IoIosArrowDown } from "react-icons/io";
 
 export default function Hero() {
   return (
@@ -27,7 +27,7 @@ export default function Hero() {
         </div>
         <div className="cursor-pointer hover:translate-y-2 transition-all duration-500 w-2">
           <a href="#questions">
-            <BsFillArrowDownCircleFill size={30} className="text-sky-600" />
+            <IoIosArrowDown size={36} />
           </a>
         </div>
       </div>
