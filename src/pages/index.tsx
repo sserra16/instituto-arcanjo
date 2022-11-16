@@ -4,6 +4,7 @@ import InstitutoArcanjo from "../components/Home/LilianArcanjo";
 import Slider from "../components/Home/Slider";
 import Frase from "../components/Home/Frase";
 import Servicos from "../components/Home/Servicos";
+import Perfil from "../components/Home/Perfil";
 
 export default function IndexPage() {
   return (
@@ -22,6 +23,10 @@ export default function IndexPage() {
 
       <section id="servicos">
         <Servicos />
+      </section>
+
+      <section id="perfil">
+        <Perfil />
       </section>
     </div>
   );

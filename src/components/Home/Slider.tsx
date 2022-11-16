@@ -14,7 +14,6 @@ export default function Slider() {
         autoplayDuration: 4000,
         autoplayDebounce: 0,
       }}>
-
       <Slide
         background={{
           backgroundColor: "#8A8A8A",
@@ -22,7 +21,7 @@ export default function Slider() {
           backgroundAnimation: "fade",
         }}
       />
-6
+
       <Slide
         background={{
           backgroundColor: "#8A8A8A",

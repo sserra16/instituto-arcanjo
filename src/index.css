@@ -7,6 +7,10 @@
   src: url("/fontes/dreamorphans.otf");
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -28,6 +32,22 @@ header nav a {
   @apply hover:!text-primary transition-all text-preto text-sm;
 }
 
+label {
+  @apply text-zinc-700
+}
+
 nav.nav-modal a {
-  @apply hover:!text-primary; 
+  @apply hover:!text-primary;
+}
+
+.selectItem {
+  @apply outline-none select-none rounded-sm flex items-center relative pr-8 pl-12 py-4 h-6 hover:bg-zinc-100 transition-all;
+}
+
+.input {
+  @apply w-full bg-zinc-200 rounded-sm px-3 py-1 outline-1 outline-primary
+}
+
+.button {
+  @apply bg-secondary text-white rounded-md px-4 py-2
 }

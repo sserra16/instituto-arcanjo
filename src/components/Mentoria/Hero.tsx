@@ -4,7 +4,7 @@ import { BsFillArrowDownCircleFill } from "react-icons/bs";
 export default function Hero() {
   return (
     <div className="w-full h-screen">
-      <div className="pt-[8rem] pl-32 flex flex-col gap-4 w-[40rem] text-justify">
+      <div className="pt-[18rem] pl-32 flex flex-col gap-4 w-[40rem] text-justify">
         <h1 className="text-2xl uppercase text-primary font-bold">
           A peça que faltava para você
         </h1>
@@ -20,7 +20,7 @@ export default function Hero() {
           <p className="font-light">
             Entenda tudo sobre como fazer parte desse grupo seleto de pessoas.
           </p>
-          <h2 className="mt-32 font-semibold text-xl text-zinc-600">
+          <h2 className="mt-16 font-semibold text-xl text-zinc-300">
             ...e como obter a mentoria por meses{" "}
             <span className="text-primary">DE GRAÇA!</span>
           </h2>
