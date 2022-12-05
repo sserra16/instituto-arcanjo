@@ -17,7 +17,7 @@ export default function Slider() {
       <Slide
         background={{
           backgroundColor: "#8A8A8A",
-          backgroundImageSrc: "./src/assets/bg5.jpg",
+          backgroundImageSrc: "/bg5.jpg",
           backgroundAnimation: "fade",
         }}
       />
@@ -25,7 +25,7 @@ export default function Slider() {
       <Slide
         background={{
           backgroundColor: "#8A8A8A",
-          backgroundImageSrc: "./src/assets/bg4.jpg",
+          backgroundImageSrc: "/bg6.jpg",
           backgroundAnimation: "fade",
         }}
       />
@@ -33,7 +33,7 @@ export default function Slider() {
       <Slide
         background={{
           backgroundColor: "#8A8A8A",
-          backgroundImageSrc: "./src/assets/bg3.jpg",
+          backgroundImageSrc: "/bg3.jpg",
           backgroundAnimation: "fade",
         }}
       />

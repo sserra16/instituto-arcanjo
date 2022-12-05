@@ -69,38 +69,40 @@ export default function Header() {
             </Dialog.Content>
           </Dialog.Overlay>
         </Dialog.Portal>
+        <AnimatePresence>
+          {header && (
+            <motion.header
+              initial={{ y: -50 }}
+              whileInView={{ y: 0 }}
+              exit={{ y: -100 }}
+              transition={{ bounce: 0, duration: 0.4 }}
+              className={`fixed top-0 py-3 md:px-32 px-10 z-20 items-center flex justify-between bg-white w-full rounded-b-md`}>
+              <img
+                src="/logo.svg"
+                width={120}
+                alt=""
+                className="cursor-pointer"
+                onClick={() => history("/")}
+              />
+
+              <nav className="md:flex hidden gap-4 text-sm">
+                <a href="#lilian">Instituto Arcanjo</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#perfil">Perfil</a>
+              </nav>
+
+              <Dialog.Trigger asChild>
+                <FaBars
+                  size={22}
+                  className="text-preto cursor-pointer md:hidden flex"
+                />
+              </Dialog.Trigger>
+
+              <div className="md:w-44 hidden md:flex"></div>
+            </motion.header>
+          )}
+        </AnimatePresence>
       </Dialog.Root>
-      <AnimatePresence>
-        {header && (
-          <motion.header
-            initial={{ y: -50 }}
-            whileInView={{ y: 0 }}
-            exit={{ y: -100 }}
-            transition={{ bounce: 0, duration: 0.4 }}
-            className={`fixed top-0 py-3 md:px-32 px-10 z-20 items-center flex justify-between bg-white w-full rounded-b-md`}>
-            <img
-              src="/logo.svg"
-              width={120}
-              alt=""
-              className="cursor-pointer"
-              onClick={() => history("/")}
-            />
-
-            <nav className="md:flex hidden gap-4 text-sm">
-              <a href="#lilian">Instituto Arcanjo</a>
-              <a href="#servicos">Serviços</a>
-              <a href="#perfil">Perfil</a>
-            </nav>
-
-            <FaBars
-              size={22}
-              className="text-preto cursor-pointer md:hidden flex"
-            />
-
-            <div className="md:w-44 hidden md:flex"></div>
-          </motion.header>
-        )}
-      </AnimatePresence>
     </>
   );
 }

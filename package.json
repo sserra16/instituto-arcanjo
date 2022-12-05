@@ -1,5 +1,6 @@
 {
   "name": "instituto-arcanjo",
+  "homepage": "http://institutoarcanjo.lilianarcanjotreinamentos.com.br",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +13,8 @@
     "@radix-ui/react-checkbox": "^1.0.1",
     "@radix-ui/react-dialog": "^1.0.2",
     "@radix-ui/react-select": "^1.1.1",
+    "@unform/core": "^2.1.6",
+    "@unform/web": "^2.1.6",
     "autoprefixer": "^10.4.13",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^7.6.4",

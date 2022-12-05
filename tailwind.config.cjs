@@ -15,14 +15,14 @@ module.exports = {
         title: "'Dream Orphans'",
       },
       backgroundImage: {
-        pessoa: "url(./src/assets/user.png)",
+        pessoa: "url('/user.png')",
         bgMentoria:
-          "linear-gradient(rgba(255, 125, 75, .5),  rgba(255, 125, 75, .7)), url(./src/assets/bg2.jpg)",
+          "linear-gradient(rgba(255, 125, 75, .5),  rgba(255, 125, 75, .7)), url('/bg2.jpg')",
         bgMentoriaPage:
-          "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./src/assets/bgMentoriaPage.jpg)",
+          "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/bgMentoriaPage.jpg')",
         bgProdutos:
-          "linear-gradient(rgba(255, 125, 75, .5),  rgba(255, 125, 75, .7)), url(./src/assets/ebook.jpg)",
-        bgProdutosPage: "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(./src/assets/ebook.jpg)",
+          "linear-gradient(rgba(255, 125, 75, .5),  rgba(255, 125, 75, .7)), url('/ebook.jpg')",
+        bgProdutosPage: "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url('/ebook.jpg')",
       },
     },
   },

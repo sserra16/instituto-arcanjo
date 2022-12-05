@@ -3,8 +3,8 @@ import { IoIosArrowDown } from "react-icons/io";
 
 export default function Hero() {
   return (
-    <div className="w-full h-screen">
-      <div className="pt-[18rem] pl-32 flex flex-col gap-4 w-[40rem] text-justify">
+    <div className="w-full md:h-screen h-full px-10 bg-bgMentoriaPage bg-cover bg-no-repeat bg-fixed pb-4">
+      <div className="pt-[18rem] md:pl-32 flex flex-col gap-4 md:w-[40rem] w-full text-justify">
         <h1 className="text-2xl uppercase text-primary font-bold">
           A peça que faltava para você
         </h1>

@@ -3,10 +3,10 @@ import React from "react";
 export default function InstitutoArcanjo() {
   return (
     <div className="h-screen md:px-32 px-10 px-auto flex flex-col items-center pt-32 w-full">
-      <h1 className="uppercase text-4xl font-title">Sobre</h1>
+      <h1 className="uppercase text-4xl hidden sm:flex font-title">Sobre</h1>
 
-      <div className="flex h-full items-center justify-center gap-48">
-        <div className="hidden md:block bg-pessoa h-full w-[20rem] bg-contain bg-no-repeat bg-center"></div>
+      <div className="flex h-3/4 items-center justify-center gap-48">
+        <div className="hidden md:block bg-pessoa h-full w-[40rem] bg-contain bg-no-repeat bg-center"></div>
         <div className="w-full flex flex-col gap-3">
           <h1 className="text-2xl uppercase font-title tracking-wider font-semibold text-preto">
             Instituto Arcanjo Treinamentos

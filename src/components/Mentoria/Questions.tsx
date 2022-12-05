@@ -5,7 +5,7 @@ import { MentoriaTexts } from "../../utils/MentoriaText";
 export default function Questions() {
   return (
     <div className="w-full pb-48 text-zinc-700">
-      <div className="pt-[8rem] pl-32 flex flex-col gap-4 w-[40rem] text-justify">
+      <div className="pt-[8rem] md:pl-32 px-5 flex flex-col gap-4 md:w-[40rem] w-full text-justify">
         <h1 className="w-[18rem] text-xl uppercase text-justify">
           Estou Rastreando meus clientes dos sonhos. Você é um deles?
         </h1>

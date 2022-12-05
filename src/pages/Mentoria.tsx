@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Form from "../components/Ebook/Form";
 import Hero from "../components/Mentoria/Hero";
 import Questions from "../components/Mentoria/Questions";
 
@@ -8,7 +9,7 @@ export default function Mentoria() {
   }, []);
 
   return (
-    <div className="w-full h-full bg-bgMentoriaPage bg-cover bg-no-repeat bg-fixed text-white">
+    <div className="w-full h-full text-white">
       <section id="hero">
         <Hero />
       </section>
@@ -18,4 +19,4 @@ export default function Mentoria() {
       </section>
     </div>
   );
-}
+} 

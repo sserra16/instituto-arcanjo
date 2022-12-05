@@ -11,13 +11,9 @@ export default function Frase() {
         transition={{ bounce: 0, duration: 0.8 }}
         className="px-4 gap-2 md:px-10 flex flex-col items-center">
         <h1 className="md:text-2xl text-lg' uppercase">
-          Se torne um vendedor{" "}
-          <span className="text-sky-800 font-semibold">visionário</span>
+          Tenha um time de
+          <span className="text-sky-800 font-semibold"> visionários</span>
         </h1>
-        <p className="text-sm text-center">
-          E ganhe 3 vezes mais / Triplique a sua comissão e realize os sonhos
-          que o dinheiro pode comprar!
-        </p>
       </motion.div>
     </div>
   );
