@@ -36,13 +36,14 @@ export default function Header() {
             className={`fixed ${
               header ? "hidden" : ""
             } top-0 py-3 md:px-32 px-10 z-20 items-center flex justify-between w-full rounded-b-md`}>
-            <img
-              src="/logo.svg"
-              className="cursor-pointer"
-              width={120}
-              alt=""
-              onClick={() => history("/")}
-            />
+            <a href="#main">
+              <img
+                src="/logo.svg"
+                className="cursor-pointer"
+                width={120}
+                alt=""
+              />
+            </a>
             <Dialog.Trigger asChild>
               <FaBars size={22} className="text-white cursor-pointer" />
             </Dialog.Trigger>
@@ -77,14 +78,14 @@ export default function Header() {
               exit={{ y: -100 }}
               transition={{ bounce: 0, duration: 0.4 }}
               className={`fixed top-0 py-3 md:px-32 px-10 z-20 items-center flex justify-between bg-white w-full rounded-b-md`}>
-              <img
-                src="/logo.svg"
-                width={120}
-                alt=""
-                className="cursor-pointer"
-                onClick={() => history("/")}
-              />
-
+              <a href="#main">
+                <img
+                  src="/logo.svg"
+                  width={120}
+                  alt=""
+                  className="cursor-pointer"
+                />
+              </a>
               <nav className="md:flex hidden gap-4 text-sm">
                 <a href="#lilian">Instituto Arcanjo</a>
                 <a href="#servicos">Serviços</a>

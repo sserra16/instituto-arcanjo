@@ -25,7 +25,7 @@ export default function Slider() {
       <Slide
         background={{
           backgroundColor: "#8A8A8A",
-          backgroundImageSrc: "/bg6.jpg",
+          backgroundImageSrc: "/bg6.jpeg",
           backgroundAnimation: "fade",
         }}
       />

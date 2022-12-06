@@ -2,12 +2,14 @@ import React from "react";
 import "./index.css";
 import Routes from "./routes";
 import Header from "./components/Header";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, useLocation } from "react-router-dom";
 
 function App() {
+  let inicial: boolean = window.location.pathname === "/" ? true : false;
+
   return (
     <BrowserRouter>
-      <Header />
+      {!inicial ? <Header /> : ""}
       <Routes />
     </BrowserRouter>
   );
