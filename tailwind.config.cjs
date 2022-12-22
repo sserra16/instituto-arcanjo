@@ -25,6 +25,12 @@ module.exports = {
           "linear-gradient(rgba(255, 125, 75, .5),  rgba(255, 125, 75, .7)), url('/ebook.jpg')",
         bgProdutosPage:
           "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url('/ebook.jpg')",
+        bgQuestions:
+          "linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)) ,url('/bg-questions.jpg')",
+        bgSmoke:
+          "linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/bg-smoke.jpg')",
+        bgSensacao:
+          "linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/bgSensacao.jpg')",
       },
     },
   },

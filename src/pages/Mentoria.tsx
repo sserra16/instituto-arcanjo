@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
-import Form from "../components/Ebook/Form";
 import Hero from "../components/Mentoria/Hero";
+import Proposta from "../components/Mentoria/Proposta";
 import Questions from "../components/Mentoria/Questions";
+import Sensacao from "../components/Mentoria/Sensacao";
 
 export default function Mentoria() {
   useEffect(() => {
-    scrollTo({ top: 0, behavior: "smooth" })
+    scrollTo({ top: 0, behavior: "smooth" });
   }, []);
 
   return (
@@ -17,6 +18,14 @@ export default function Mentoria() {
       <section id="questions">
         <Questions />
       </section>
+
+      <section id="proposta">
+        <Proposta />
+      </section>
+
+      <section id="sensacao">
+        <Sensacao />
+      </section>
     </div>
   );
-} 
+}

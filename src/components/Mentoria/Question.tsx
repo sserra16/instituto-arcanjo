@@ -21,7 +21,7 @@ export default function Question({ text, count }: IQuestion) {
             "bg-white !w-6 h-6 rounded-md focus:outline outline-primary outline-1 flex items-center justify-center shadow-md cursor-pointer"
           }>
           <Checkbox.Indicator>
-            <BsCheck size={20} />
+            <BsCheck size={20} color={'black'} />
           </Checkbox.Indicator>
         </Checkbox.Root>
         <p className="text-md font-light w-[30rem]">{text}</p>

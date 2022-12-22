@@ -21,7 +21,7 @@ export default function Servicos() {
           className="overflow-hidden flex row-span-3 items-center justify-center cursor-pointer"
           onClick={() => history("/palestras")}>
           <div className="bg-bgProdutos w-full h-full hover:scale-105 transition-all flex items-center justify-center bg-center bg-cover">
-            <h1 className="md:text-4xl !text-xl text-white uppercase tracking-wider">
+            <h1 className="md:text-4xl !text-xl text-white text-center uppercase tracking-wider">
               Palestras e Treinamentos
             </h1>
           </div>
